@@ -4,20 +4,20 @@ body {
     background-size: cover;
     text-align: left;
     vertical-align: bottom;
-    text-shadow: #00000;
+    text-shadow: #ff1111;
 }
 .button {
-    background-color: #ff1111;
-    border: 2px solid #ff1111;
-    color: white;
+    background-color: #ff1;
+    border: 2px solid #ff1;
+    color: black;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 18px;
-    margin: 5px 5px;
+    font-size: 25px;
+    margin: 10px 45px;
     cursor: pointer;
 }
 div {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
