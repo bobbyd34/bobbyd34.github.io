@@ -1,14 +1,14 @@
 body {
-    background-image: url('images/music.jpg');
+    background-image: url('images/lion.jpg');
     color: #FFFFFF;
     background-size: cover;
     text-align: left;
     vertical-align: bottom;
-    text-shadow: #ff1111;
+    text-shadow: #ff0000;
 }
 .button {
     background-color: #ff1;
-    border: 2px solid #ff1;
+    border: 2px solid #ff1000;
     color: black;
     text-align: center;
     text-decoration: none;
