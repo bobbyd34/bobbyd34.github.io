@@ -12,12 +12,40 @@ body, html {
 }
 
 .bgimg {
+  background-attachment: fixed;
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   background-image: url("images/bd34.jpg");
   min-height: 75%;
 }
 
+.bgimg2 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("images/bobby34.jpg");
+  min-height: 75%;
+}
+
+.bgimg3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("images/music.jpg");
+  min-height: 75%;
+}
+
+.bgimg4 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("images/career.jpg");
+  min-height: 75%;
+}
 .menu {
   display: none;
 }
@@ -58,7 +86,7 @@ body, html {
 <div class="w3-sand w3-grayscale w3-large">
 
 <!-- About ontainer -->
-<div class="w3-container" id="home">
+<header class="bgimg2 w3-display-container w3-grayscale-min" id="portfolio">
   <div class="w3-content" style="max-width:700px">
     <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">THIS IS ALL BAOUT ME</span></h5>
     <div class="w3-panel w3-leftbar w3-light-grey">
@@ -72,7 +100,7 @@ body, html {
 </div>
 
 <!PORTFOLIO>
-<div class="w3-container" id="portfolio">
+<header class="bgimg2 w3-display-container w3-grayscale-min" id="portfolio">
   <div class="w3-content" style="max-width:700px">
  
     <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THIS IS MY PORTFOLIO PAGE!</span></h5>
@@ -100,7 +128,7 @@ body, html {
 </div>
 
 <!about me>
-<div class="w3-container" id="aboutme" style="padding-bottom:32px;">
+<header class="bgimg3 w3-display-container w3-grayscale-min" id="aboutme">
   <div class="w3-content" style="max-width:700px">
     <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">ABOUT ME</span></h5>
     <img src="images/bobby34.jpg" height="250">
@@ -116,7 +144,7 @@ body, html {
 
 
 <!cs career>
-<div class="w3-container" id="cscareer" style="padding-bottom:32px;">
+<header class="bgimg4 w3-display-container w3-grayscale-min" id="cscareer">
   <div class="w3-content" style="max-width:700px">
     <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">WEB DESIGN</span></h5>
     <font size="+2"><P>Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; interface design;<br>authoring, including standardised code and proprietary software; user experience design; and search engine optimization.</P>
@@ -131,7 +159,6 @@ body, html {
 
 <!-- Footer -->
 <footer class="w3-center w3-light-grey w3-padding-48 w3-large">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
 </footer>
 
 <script>
