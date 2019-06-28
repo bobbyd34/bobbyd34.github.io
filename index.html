@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>Bobby <BR>Daniels <br>III</title>
+<title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -25,7 +25,7 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("images/bobbyd345.jpg");
+  background-image: url("images/bd15.jpg");
   min-height: 80%;
 }
 
@@ -47,14 +47,19 @@ body, html {
   min-height: 80%;
 }
 
+.bgimg5 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("images/bobbyd.jpg");
+  min-height: 80%;
+}
+
 .border1{
   border-style: solid;
   border-width: 2px 2px 2px 2px;
   border-color: black;
-}
-
-.menu {
-  display: none;
 }
 
 .menu {
@@ -65,15 +70,15 @@ body, html {
 
 <!-- Links (sit on top) -->
 <div class="w3-top">
-  <div class="w3-row w3-padding w3-red">
+  <div class="w3-row w3-padding w3-RED">
     <div class="w3-col s3">
       <a href="#" class="w3-button w3-block w3-red border1"><font color=black><font size="+2">HOME</a>
     </div>
     <div class="w3-col s3">
-      <a href="#portfolio" class="w3-button w3-block w3-red border1"><font color=black><font size="+2">PORTFOLIO</a>
+      <a href="#aboutme" class="w3-button w3-block w3-red border1"><font color=black><font size="+2">ABOUTME</a>
     </div>
     <div class="w3-col s3">
-      <a href="#aboutme" class="w3-button w3-block w3-red border1"><font color=black><font size="+2">ABOUT ME</a>
+      <a href="#portfolio" class="w3-button w3-block w3-red border1"><font color=black><font size="+2">PORTFILO</a>
     </div>
     <div class="w3-col s3">
       <a href="#cscareer" class="w3-button w3-block w3-red border1"><font color=black><font size="+2">CS CAREER</a>
@@ -96,16 +101,20 @@ body, html {
 <!-- Add a background color and large text to the whole page -->
 <div class="w3-sand w3-grayscale w3-large">
 
-<!-- About ontainer -->
-<header class="bgimg2 w3-display-container w3-grayscale-min" id="portfolio">
+<!about me>
+<header class="bgimg3 w3-display-container w3-grayscale-min" id="aboutme">
   <div class="w3-content" style="max-width:700px">
-    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">THIS IS ALL ABOUT ME</span></h5>
-    <div class="w3-panel w3-leftbar w3-light-grey">
-      </div>
-       <center><h1><font color=black><font size="+3"><h1>This is my Home Page!</h1>
-         <br>
-         <br>
-        <a target="_blank" href="https://scratch.mit.edu">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">ABOUT ME</span></h5>
+    <center><img src="images/bobby34.jpg" height="250">
+         <img src="images/america.jpg" height="250">
+        <br>
+        <br>
+            <img src="images/bobbyd.jpg" height="250">
+             <img src="images/america.jpg" height="250">
+            <br>
+            <br>
+            <img src="images/lion.jpg" height="250"></center>
+          <center><BR><br><a target="_blank" href="https://scratch.mit.edu">
         <img src="images/home.jpg" height="250">
         <br>
         <br>
@@ -114,18 +123,17 @@ body, html {
   </div>
 </div>
 
-<!PORTFOLIO>
+<!-- Menu Container -->
 <header class="bgimg2 w3-display-container w3-grayscale-min" id="portfolio">
   <div class="w3-content" style="max-width:700px">
- 
-    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THIS IS MY PORTFOLIO PAGE!</span></h5>
+       <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THIS IS MY PORTFOLIO PAGE!</span></h5>
   
     <div class="w3-row w3-center w3-card w3-padding">
       <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
-        <div class="w3-col s6 tablink">BOBBY'S WORK</div>
+<font color=black><font size="+2"><div class="w3-col s6 tablink">BOBBY'S WORK</div>
       </a>
       <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
-        <div class="w3-col s6 tablink">words of encergment</div>
+<font color=black><font size="+2"><div class="w3-col s6 tablink">words of encergment</div>
       </a>
     </div>
 
@@ -148,23 +156,6 @@ body, html {
       </div></center>
 </div>
 
-<!about me>
-<header class="bgimg3 w3-display-container w3-grayscale-min" id="aboutme">
-  <div class="w3-content" style="max-width:700px">
-    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">ABOUT ME</span></h5>
-    <center><img src="images/bobby34.jpg" height="250">
-         <img src="images/america.jpg" height="250">
-        <br>
-        <br>
-            <img src="images/bobbyd.jpg" height="250">
-             <img src="images/america.jpg" height="250">
-            <br>
-            <br>
-            <img src="images/lion.jpg" height="250"></center>
-  </div>
-</div>
-
-
 <!cs career>
 <header class="bgimg4 w3-display-container w3-grayscale-min" id="cscareer">
   <div class="w3-content" style="max-width:700px">
@@ -182,12 +173,12 @@ body, html {
 
 <!-- Footer -->
 <footer class="w3-center w3-light-grey w3-padding-48 w3-large">
-<font color=green><font size="+2"><P>THIS IS BOBBY DANIELS WEBSITE</P>
+<font color=green><font size="+2"><p>BOBBY DANIELS III WEBSITE</p>
 </footer>
 
 <script>
 // Tabbed Menu
- function openMenu(evt, menuName) {
+function openMenu(evt, menuName) {
   var i, x, tablinks;
   x = document.getElementsByClassName("menu");
   for (i = 0; i < x.length; i++) {
